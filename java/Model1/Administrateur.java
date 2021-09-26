@@ -9,7 +9,8 @@ public class Administrateur extends Utilisateurs {
     /**
      * Default constructor
      */
-    public Administrateur() {
+    public Administrateur(String nom, String prenom, String adresse, String mail) {
+        super(nom,prenom,adresse,mail);
     }
 
     /**

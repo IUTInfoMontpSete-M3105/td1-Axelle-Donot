@@ -9,7 +9,7 @@ public class Utilisateurs extends Utilisateurs {
     private string adresse postale;
     private string mail;
 
-    public Utilisateurs(string nom, string prenom, string adresse, string mail) {
+    public Utilisateurs(String nom, String prenom, String adresse, String mail) {
         Nom = nom;
         this.prenom = prenom;
         this.adresse = adresse;

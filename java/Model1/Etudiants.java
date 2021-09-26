@@ -7,17 +7,11 @@ public class Etudiants extends Utilisateurs {
     public Devoir ;
 
 
-    public Etudiants(string num) {
+    public Etudiants(String num,String nom, String prenom, String adresse, String mail) {
         this.Numetu = num;
+        super(nom,prenom,adresse,mail);
     }
 
-    private void Calculer la note() {
-        // TODO implement here
-    }
-
-    /**
-     * 
-     */
     private void Suivre cours () {
         // TODO implement here
     }

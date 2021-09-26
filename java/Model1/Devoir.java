@@ -6,10 +6,13 @@ import java.util.*;
  */
 public class Devoir {
 
-    /**
-     * Default constructor
-     */
-    public Devoir() {
+
+    public Devoir(String nom, String des, date dl, double nbpts, Etudiants e ) {
+        Nom=nom;
+        description=des;
+        deadline=dl;
+        nbre de points=nbpts;
+        Etudiants=e;
     }
 
     /**
@@ -30,7 +33,7 @@ public class Devoir {
     /**
      * 
      */
-    private float nbre de points;
+    private double nbre de points;
 
     /**
      * 

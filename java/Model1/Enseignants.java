@@ -9,9 +9,10 @@ public class Enseignants extends Utilisateurs {
     private string Numen;
     private string Harpege;
 
-    public Enseignants( String nu,String ar) {
+    public Enseignants( String nu,String ar,String num,String nom, String prenom, String adresse, String mail) {
         this.Numen=nu;
         this.Harpege=ar;
+        super(nom,prenom,adresse,mail);
     }
 
 
